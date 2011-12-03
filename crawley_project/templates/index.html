@@ -1,0 +1,60 @@
+{% extends "base.html" %}		
+
+{% block content %}
+
+<div id="content" class="content">
+						
+	<h2>Welcome to the crawley project web site!</h2>
+	<br/>
+	<h3>Crawley is Pythonic Crawling / Scraping framework built on Eventlet</h3>
+	
+	<div>			
+		<br/>
+			<b><div>Features:</div></b>
+		<br/>
+			<ul>
+				<li>High Speed WebCrawler built on Eventlet.</li>
+				<li>Store you data in relational databases like Postgres, Mysql, Oracle, Sqlite.</li>
+				<li>Export your data into Json, XML formats. <span class="label success">New</span></li>
+				<li>Supports NoSQL databased like Mongodb and Couchdb. <span class="label success">New</span></li>
+				<li>Command line tools.</li>
+				<li>Extract data using your favourite tool. XPath or Pyquery (A Jquery-like library for python).</li>
+				<li>Cookie Handlers for scraping login protected pages.</li>
+				<li>Very easy to use (see the <a href="https://github.com/jmg/crawley/tree/0.2.x-stable/examples">examples</a>).</li>
+			</ul>
+			<div>We are proud to announce the <a href="http://pypi.python.org/pypi?:action=display&name=crawley&version=0.2.3">release 0.2.3 of the crawley framework</a>.</div>				
+		<br/>
+
+		<div>Satisfy Dependencies. In ubuntu just do:</div>				
+		<br/>
+		<pre class="prettyprint">~$ apt-get install python-dev libxml2 libxslt1-dev</pre>
+		
+		<div>Then you can download the latest version from pip:</div>							
+		<br/>
+		<pre class="prettyprint">~$ pip install crawley</pre>
+		
+		<div>Or clone the repository at github:</div>
+						
+		<br/>
+		<pre class="prettyprint">~$ git clone git://github.com/jmg/crawley.git</pre>
+		
+		<h4>Where to start?</h4>
+		<br/>
+		<div>You can checkout first the <a href="http://packages.python.org/crawley/">documentation</a> and learn crawley with examples!.  Also you can join the <a href="http://groups.google.com/group/crawley-users">crawley-users group</a>. The community is in there to help you.</div>				
+		<br/>
+		
+		<h4>Do you wanna contribute?</h4>
+		<br/>
+			
+		<div>Join the <a href="http://groups.google.com/group/crawley-developers">crawley-developers group</a>.</div>
+		<br/>
+		
+		<div>Or make a financial donation via paypal.</div>
+		<br/>				
+		
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_donations"><input type="hidden" name="business" value="jmg.utn@gmail.com"><input type="hidden" name="lc" value="US"><input type="hidden" name="item_name" value="crawley-project"><input type="hidden" name="no_note" value="0"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1"></form>
+	</div>
+							
+</div>
+		
+{% endblock %}
