@@ -1,6 +1,6 @@
 /* Override some defaults */
 html, body {
-background-color: #eee;
+    background: url('/media/images/back.png');
 }
 body {
 padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
@@ -17,9 +17,9 @@ width: 820px; /* downsize our container to make the content feel a bit tighter a
 background-color: #fff;
 padding: 20px;
 margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
--webkit-border-radius: 0 0 6px 6px;
-   -moz-border-radius: 0 0 6px 6px;
-        border-radius: 0 0 6px 6px;
+-webkit-border-radius: 15px 15px 15px 15px;
+   -moz-border-radius: 15px 15px 15px 15px;
+        border-radius: 15px 15px 15px 15px;
 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
         box-shadow: 0 1px 2px rgba(0,0,0,.15);
@@ -67,6 +67,10 @@ h2, h3 {
     font-weight: bold;
 }
 
+h3 {
+    color: #0000FF;
+}
+
 .center {
     text-align: center;
     width: 100%;
@@ -75,6 +79,9 @@ h2, h3 {
 
 .page-header {
     background-color: #FFFFFF;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .vertical {    
